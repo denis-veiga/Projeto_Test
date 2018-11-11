@@ -1,0 +1,19 @@
+#Instruções para executar o código desenvolvido em Python, utilizando Selenium para teste de automação em web browser.
+
+1. Importar da biblioteca do selenium o webdriver;
+
+2. Importar a biblioteca do JSON;
+
+3. Realizar o download do módulo geckodriver.exe (Firefox) e/ou webdriver.exe (Chrome);
+
+4. Adicionar na variável de Ambiente de Sistema PATH os caminhos para a instalações do Python, Selenium, plugin webdriver para os navegadores utilizados e local onde o programa foi desenvolvido.  No caso do desenvolvedor que vos fala, caminho da IDE PyCharm;
+Segue os caminhos adicionados a variavel de ambiente PATH:
+
+	c:\Selenium                                          (plugin webdriver.exe)
+	c:\selenium_gecko                              (plugin geckodriver.exe)
+	c:\Program Files\JetBrains                 (IDE PyCharm, onde se encontra o projeto desenvolvido)
+	c:\Program Files\Python37                (Instaslação Python3.7)
+
+5. Antes de executar o código, alterar na LINHA 45 o caminho da função "dir =", caminho atual:
+	
+	dir = 'C:\Users\Denis\Documents\test'
